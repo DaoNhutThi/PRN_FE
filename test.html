@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Individual Word Click Effect</title>
+    <style>
+        /* CSS để tạo button đa chữ */
+        .combined-button {
+            background-color: #008CBA; /* Màu nền ban đầu */
+            border: none; /* Loại bỏ đường viền */
+            color: white; /* Màu chữ */
+            padding: 10px 20px; /* Kích thước và khoảng cách lề */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /* CSS cho hiệu ứng khi từng chữ được nhấn */
+        .combined-button span {
+            transition: color 0.3s; /* Hiệu ứng chuyển đổi màu chữ trong 0.3 giây */
+        }
+
+        /* CSS cho hiệu ứng khi từng chữ được nhấn */
+        .combined-button:active span {
+            color: #005F87; /* Màu chữ khi từng chữ được nhấn */
+        }
+    </style>
+</head>
+<body>
+    <button class="combined-button">
+        <span>Chapter</span>
+        <span>Comment</span>
+        <span>Relate</span>
+    </button>
+</body>
+</html>

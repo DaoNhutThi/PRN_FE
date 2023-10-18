@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./category.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Category</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light  ">
+    <div class="container-fluid">
+    <img class="nav-logo" src="/FE/img/logo-dark.png" alt="logo">
+      <a class="navbar-brand mb-0 h1" href="#">
+        <ul>
+            <li>yomi</li>
+            <li>kaze</li>
+        </ul>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul> -->
+        <form class="d-flex">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn-search " type="submit">Search</button>
+        </form>
+        <form class="btn-sigin">
+            <button class="btn " type="submit">Sign In</button>
+        </form>
+        <form class="btn-sigup">
+            <button class="btn " type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+        <div class="row justify-content-md-start">
+          <button class="btn-all">
+            <div class="top">
+              <span class="span-chapter col-1 ">
+                Chapter <a class="span_chapter" href="/comicdetailChapter.html" onclick="chapter()"></a>
+              </span>
+            </div>
+            <div class="top">
+              <span class="span-category col-1 ">
+                Category <a class="span_chapter" href="/comicdetailChapter.html" onclick="chapter()"></a>
+              </span>
+            </div>
+            <div class="top">
+              <span class="span-list col-1 ">
+                List <a class="span_chapter" href="/comicdetailChapter.html" onclick="chapter()"></a>
+              </span>
+            </div>
+            <div class="top">
+              <span class="span-hot col-1 ">
+                Hot <a class="span_chapter" href="/comicdetailChapter.html" onclick="chapter()"></a>
+              </span>
+            </div>
+            <div class="top">
+              <span class="span-history col-1 ">
+                History <a class="span_chapter" href="/comicdetailChapter.html" onclick="chapter()"></a>
+              </span>
+            </div>
+            <div class="top">
+              <span class="span-fanpage col-1 ">
+                Fanpage<a class="span_chapter" href="/comicdetailChapter.html" onclick="chapter()"></a>
+              </span>
+            </div>
+          </button>
+        </div>
+    </div>
+    <!-- <div class="container">
+      <span>Đây là đường link dẫn</span>
+    </div> -->
+        <div class="relate " style="position: absolute; top: -27em;left: 2em;">
+          <div class="container">
+            <div class="relate1 col">
+                <img class="img-relate1" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                <p>Đây là truyện nhe</p>
+            </div>
+            <div class="relate2 col">
+                <img class="img-relate2" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                <p>Đây là truyện nhe</p>
+            </div>
+            <div class="relate3 col">
+                <img class="img-relate3" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                <p>Đây là truyện nhe</p>
+            </div>
+            <div class="relate4 col">
+                <img class="img-relate4" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                <p>Đây là truyện nhe</p>
+            </div>
+          </div>
+          <!-- column2 -->
+            <div class="container">
+              <div class="relates1 col">
+                <img class="img-relates1" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                <p>Đây là truyện nhe</p>
+            </div>
+                <div class="relates2 col">
+                    <img class="img-relates2" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                    <p>Đây là truyện nhe</p>
+                </div>
+                <div class="relates3 col">
+                    <img class="img-relates3" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                    <p>Đây là truyện nhe</p>
+                </div>
+                <div class="relates4 col">
+                    <img class="img-relates4" src="/FE/img/0bf51fb2640a860ccc62a36524c4571f.png" alt="">
+                    <p>Đây là truyện nhe</p>
+                </div>
+            </div>
+        </div>
+      </div>
+  </main>
+</body>
+</html>

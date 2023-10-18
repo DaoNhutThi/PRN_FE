@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --primary-gray: #737373;
+}
+.btn{
+    background-color: #d9d9d9;
+}
+.navbar {
+ background-color: var(--primary-gray);
+ min-height: 6.25em;
+}
+.nav-logo{
+    width: 5em;
+    height: 5.5em;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 5em;
+    height: 4em;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0.7em;
+    left: 0.8em;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 1.6em;
+    
+}
+
+ul li{
+    font-size: 1.2em;
+    letter-spacing: 3px;
+}
+
+ul li:nth-child(1){
+    color: #fff;
+}
+
+ul li:nth-child(2){
+    color: orange;
+}
+.btn{
+    background-color: #d9d9d9;
+}
+.nav-button .btn{
+    width: 8.2em;
+    height: 2em;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn:hover{
+    background: rgba(255, 255, 255, 0.875);
+}
+.d-flex{
+    width: 20em;
+    position: absolute;
+    top: 2em;
+    left: 30em;
+}
+.d-flex .btn-search{
+    border:none;
+    height: 2.5em;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 0.02em;
+    left: 21em;
+}
+
+.btn-sigin{
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 2em;
+    left: 63em;
+}
+.btn-sigup{
+    width: 5.5em;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 2em;
+    left: 69em;
+}

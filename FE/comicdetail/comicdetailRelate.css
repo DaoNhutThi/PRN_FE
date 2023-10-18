@@ -189,7 +189,7 @@ i{
 .btn-all{
     height: 3em;
     position: absolute;
-    top: 32em;
+    top: 33em;
     left: 6em;
     border-radius: 5px;
     text-align: center;
@@ -198,7 +198,7 @@ i{
 }
 .span-chapter{
     position: absolute;
-    top: 0.6em;
+    top: 0.7em;
     left: 1.3em;
     border-radius: 5px;
     transition: black 0.3s;
@@ -209,7 +209,7 @@ i{
 }
 .span-comment{
     position: absolute;
-    top: 0.6em;
+    top: 0.7em;
     left: 7.3em;
     border-radius: 5px;
 
@@ -220,7 +220,7 @@ i{
 }
 .span-relate{
     position: absolute;
-    top: 0.6em;
+    top: 0.7em;
     left: 14.3em;
     border-radius: 5px;
 }

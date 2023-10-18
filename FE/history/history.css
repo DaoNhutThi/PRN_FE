@@ -50,6 +50,7 @@ ul li:nth-child(1){
 ul li:nth-child(2){
     color: orange;
 }
+
 .btn{
     background-color: #d9d9d9;
 }
@@ -82,13 +83,10 @@ ul li:nth-child(2){
     top: 0.02em;
     left: 21em;
 }
-
-.btn-sigin{
-    border-radius: 5px;
-    background-color: #d9d9d9;
-    position: absolute;
-    top: 2em;
-    left: 63em;
+.btn-admin{
+    font-size: large;
+    position: relative;
+    right: -55em;
 }
 .btn-sigup{
     width: 5.5em;
@@ -97,4 +95,84 @@ ul li:nth-child(2){
     position: absolute;
     top: 2em;
     left: 69em;
+}
+.btn-all{
+    background-color: #d9d9d9;
+    height: 3.5em;
+    width: 100em;
+    position: absolute;
+    top: 6.5em;
+    left: -1em;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+.span-chapter{
+    font-size: large;
+    /* font-style: bold; */
+    position: absolute;
+    top: 0.7em;
+    left: 5.3em;
+    border-radius: 5px;
+    transition: black 0.3s;
+}
+.span-chapter:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-category{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 14.3em;
+    border-radius: 5px;
+
+}
+.span-category:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-list{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 23.3em;
+    border-radius: 5px;
+}
+.span-list:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-hot{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 30em;
+    border-radius: 5px;
+}
+.span-hot:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-history{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 38em;
+    border-radius: 5px;
+}
+.span-history:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-fanpage{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 49em;
+    border-radius: 5px;
+}
+.span-fanpage:active{
+    color: black;
+    transform: scale(0.98);
 }

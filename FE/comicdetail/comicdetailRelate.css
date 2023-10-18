@@ -60,8 +60,8 @@ ul li:nth-child(2){
 .nav-search::placeholder{
     color: #000;
     padding: 1em;
-}
-/* .searchBtn{
+} 
+.searchBtn{
     width: 2.5em;
     height: 2em;
     background: #fff;
@@ -74,7 +74,7 @@ ul li:nth-child(2){
 
 .searchBtn:hover{
     background: rgba(255, 255, 255, 0.3);
-} */
+}
 .btn{
     background-color: #d9d9d9;
 }
@@ -236,6 +236,11 @@ i{
 /* .btn-relate:hover{
     color: #737373;
 } */
+.relate{
+    position: absolute;
+    top: -3em;
+    left: 2em;
+}
 .img-relate1{
     width: 14em;
     height: 16em;
@@ -245,9 +250,9 @@ i{
     left: 2.5em;
 }
 .relate1 p{
-    position: absolute;
+    position: relative;
     top: 55em;
-    left: 5.2em;
+    left: 4.5em;
 }
 .img-relate2{
     width: 14em;
@@ -258,9 +263,9 @@ i{
     left: 21em;
 }
 .relate2 p{
-    position: absolute;
-    top: 55em;
-    left: 23.5em;
+    position: relative;
+    top: 52.5em;
+    left: 23em;
 }
 .img-relate3{
     width: 14em;
@@ -271,9 +276,9 @@ i{
     left: 38.5em;
 }
 .relate3 p{
-    position: absolute;
-    top: 55em;
-    left: 41em;
+    position: relative;
+    top: 50em;
+    left: 40.3em;
 }
 .img-relate4{
     width: 14em;
@@ -284,8 +289,8 @@ i{
     left: 56.5em;
 }
 .relate4 p{
-    position: absolute;
-    top: 55em;
+    position: relative;
+    top: 48em;
     left: 59em;
 }
 /* class2 */
@@ -298,9 +303,9 @@ i{
     left: 2.5em;
 }
 .relates1 p{
-    position: absolute;
-    top: 76em;
-    left: 5.2em;
+    position: relative;
+    top: 66em;
+    left: 4.2em;
 }
 .img-relates2{
     width: 14em;
@@ -311,9 +316,9 @@ i{
     left: 21em;
 }
 .relates2 p{
-    position: absolute;
-    top: 76em;
-    left: 23.5em;
+    position: relative;
+    top: 63.5em;
+    left: 23em;
 }
 .img-relates3{
     width: 14em;
@@ -324,9 +329,9 @@ i{
     left: 38.5em;
 }
 .relates3 p{
-    position: absolute;
-    top: 76em;
-    left: 41em;
+    position: relative;
+    top: 61em;
+    left: 40.5em;
 }
 .img-relates4{
     width: 14em;
@@ -337,9 +342,9 @@ i{
     left: 56.5em;
 }
 .relates4 p{
-    position: absolute;
-    top: 76em;
-    left: 59em;
+    position: relative;
+    top: 58.5em;
+    left: 58.5em;
 }
 
 

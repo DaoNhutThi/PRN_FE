@@ -50,31 +50,6 @@ ul li:nth-child(1){
 ul li:nth-child(2){
     color: orange;
 }
-.nav-search{
-    height: 2em;
-    border-radius: 5px;
-    background: #fff;
-    border-style: none;
-}
-
-.nav-search::placeholder{
-    color: #000;
-    padding: 1em;
-}
-/* .searchBtn{
-    width: 2.5em;
-    height: 2em;
-    background: #fff;
-    border-radius: 5px;
-    border-style: none;
-    color: #000;
-    cursor: pointer;
-    transition: .3s ease;
-}
-
-.searchBtn:hover{
-    background: rgba(255, 255, 255, 0.3);
-} */
 .btn{
     background-color: #d9d9d9;
 }
@@ -123,114 +98,113 @@ ul li:nth-child(2){
     top: 2em;
     left: 69em;
 }
-.nav-panel1{
-    width: 100%;
-    height: 13em;
-}
-.nav-panel2{
-    border-radius: 1em;
-    width: 10em;
-    height: 12em;
+.relate{
     position: absolute;
-    top: 11.5em;
-    left: 6em;
+    top: 0.1em;
+    left: 2em;
 }
-.h4{
-    position: absolute;
-    top: 10em;
-    left: 13.5em;
-}
-.h6{
-    position: absolute;
-    top: 17.5em;
-    left: 20em;
-}
-
-.btn-add{
-    padding: 10px 10px;
-    font-size: 15px;
-    border: 1px solid none;
+.img-relate1{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 22em;
-    left: 20em;
-    border-radius: 5px; 
+    top: 42em;
+    left: 2.5em;
 }
-
-.btn-start{
-    padding: 10px 20px;
-    font-size: 15px;
-    border: 1px solid none;
+.relate1 p{
+    position: relative;
+    top: 55em;
+    left: 4.5em;
+}
+.img-relate2{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 22em;
-    left: 33em;
-    border-radius: 5px; 
+    top:42em;
+    left: 21em;
 }
-.btn-continue{
-    padding: 10px 20px;
-    font-size: 15px;
-    border: 1px solid none;
+.relate2 p{
+    position: relative;
+    top: 52.5em;
+    left: 23em;
+}
+.img-relate3{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 22em;
-    left: 45em;
-    border-radius: 5px; 
+    top:42em;
+    left: 38.5em;
 }
-i{
-    padding: 0 10px 0 10px;
+.relate3 p{
+    position: relative;
+    top: 50em;
+    left: 40.3em;
 }
-.lh-1{
-    width: 65em;
-    position: absolute;
-    top: 26em;
-    left: 6em;
-}
-.btn-all{
-    height: 3em;
-    position: absolute;
-    top: 32em;
-    left: 6em;
+.img-relate4{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-}
-.span-chapter{
     position: absolute;
-    top: 0.6em;
-    left: 1.3em;
+    top:42em;
+    left: 56.5em;
+}
+.relate4 p{
+    position: relative;
+    top: 48em;
+    left: 59em;
+}
+/* class2 */
+.img-relates1{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
-    transition: black 0.3s;
-}
-.span-chapter:active{
-    color: black;
-    transform: scale(0.98);
-}
-.span-comment{
     position: absolute;
-    top: 0.6em;
-    left: 7.3em;
+    top: 63em;
+    left: 2.5em;
+}
+.relates1 p{
+    position: relative;
+    top: 66em;
+    left: 4.2em;
+}
+.img-relates2{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
-
-}
-.span-comment:active{
-    color: black;
-    transform: scale(0.98);
-}
-.span-relate{
     position: absolute;
-    top: 0.6em;
-    left: 14.3em;
+    top:63em;
+    left: 21em;
+}
+.relates2 p{
+    position: relative;
+    top: 63.5em;
+    left: 23em;
+}
+.img-relates3{
+    width: 14em;
+    height: 16em;
     border-radius: 5px;
-}
-.span-relate:active{
-    color: black;
-    transform: scale(0.98);
-}
-#btn-relate{
     position: absolute;
-    top: 43.65em;
-    left: -13.4em;
+    top:63em;
+    left: 38.5em;
 }
-
+.relates3 p{
+    position: relative;
+    top: 61em;
+    left: 40.5em;
+}
+.img-relates4{
+    width: 14em;
+    height: 16em;
+    border-radius: 5px;
+    position: absolute;
+    top: 63em;
+    left: 56.5em;
+}
+.relates4 p{
+    position: relative;
+    top: 58.5em;
+    left: 58.5em;
+}

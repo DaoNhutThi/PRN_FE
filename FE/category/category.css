@@ -126,7 +126,7 @@ ul li:nth-child(2){
 .btn-all{
     background-color: #d9d9d9;
     height: 3.5em;
-    width: 100em;
+    /* width: 100em; */
     position: absolute;
     top: 6.5em;
     left: -1em;

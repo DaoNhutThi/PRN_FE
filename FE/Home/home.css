@@ -112,6 +112,86 @@ ul li:nth-child(2){
     position: relative;
     right: -55em;
 }
+.btn-all{
+    background-color: #d9d9d9;
+    height: 3.5em;
+    /* width: 100em; */
+    position: absolute;
+    top: 6.5em;
+    left: -1em;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+.span-chapter{
+    font-size: large;
+    /* font-style: bold; */
+    position: absolute;
+    top: 0.7em;
+    left: 5.3em;
+    border-radius: 5px;
+    transition: black 0.3s;
+}
+.span-chapter:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-category{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 14.3em;
+    border-radius: 5px;
+
+}
+.span-category:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-list{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 23.3em;
+    border-radius: 5px;
+}
+.span-list:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-hot{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 30em;
+    border-radius: 5px;
+}
+.span-hot:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-history{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 38em;
+    border-radius: 5px;
+}
+.span-history:active{
+    color: black;
+    transform: scale(0.98);
+}
+.span-fanpage{
+    font-size: large;
+    position: absolute;
+    top: 0.7em;
+    left: 49em;
+    border-radius: 5px;
+}
+.span-fanpage:active{
+    color: black;
+    transform: scale(0.98);
+}
 #btn-relate{
     position: absolute;
     top: 43.65em;
@@ -120,7 +200,7 @@ ul li:nth-child(2){
 /* column1 */
 .recommend{
     position: absolute;
-    top: 9em;
+    top: 12em;
     left: 5em;
     font-weight: 700;
     font-size: 15px;
@@ -130,25 +210,25 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 40em;
+    top: 41em;
     left: 2.5em;
 }
 .relate1 p{
     position: relative;
-    top: 53em;
-    left: 4.5em;
+    top: 53.6em;
+    left: 4.4em;
 }
 .img-relate2{
     width: 14em;
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:40em;
+    top:41em;
     left: 21em;
 }
 .relate2 p{
     position: relative;
-    top: 50.5em;
+    top: 51.5em;
     left: 23em;
 }
 .img-relate3{
@@ -156,12 +236,12 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:40em;
+    top:41em;
     left: 38.5em;
 }
 .relate3 p{
     position: relative;
-    top: 48em;
+    top: 49em;
     left: 40.3em;
 }
 .img-relate4{
@@ -169,18 +249,18 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:40em;
+    top:41em;
     left: 56.5em;
 }
 .relate4 p{
     position: relative;
-    top: 45.5em;
+    top: 46.5em;
     left: 58.3em;
 }
 /* column 2 */
 .new{
     position: absolute;
-    top: 63em;
+    top: 62.5em;
     left: 2.5em;
     font-size: 15px;
     font-weight: 700;
@@ -190,7 +270,7 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 63em;
+    top: 62em;
     left: 2.5em;
 }
 .relates1 p{
@@ -203,7 +283,7 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:63em;
+    top:62em;
     left: 21em;
 }
 .relates2 p{
@@ -216,7 +296,7 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:63em;
+    top:62em;
     left: 38.5em;
 }
 .relates3 p{
@@ -229,7 +309,7 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 63em;
+    top: 62em;
     left: 56.5em;
 }
 .relates4 p{
@@ -240,7 +320,7 @@ ul li:nth-child(2){
 /* column 3*/
 .popular{
     position: absolute;
-    top: 86.5em;
+    top: 85em;
     left: 2.5em;
     font-size: 15px;
     font-weight: 700;
@@ -250,12 +330,12 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 85em;
+    top: 83em;
     left: 2.5em;
 }
 .relatess1 p{
     position: relative;
-    top: 75em;
+    top: 76em;
     left: 4.2em;
 }
 .img-relatess2{
@@ -263,12 +343,12 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:85em;
+    top:83em;
     left: 21em;
 }
 .relatess2 p{
     position: relative;
-    top: 72.5em;
+    top: 73.5em;
     left: 23em;
 }
 .img-relatess3{
@@ -276,12 +356,12 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top:85em;
+    top:83em;
     left: 38.5em;
 }
 .relatess3 p{
     position: relative;
-    top: 70em;
+    top: 71em;
     left: 40.5em;
 }
 .img-relatess4{
@@ -289,11 +369,11 @@ ul li:nth-child(2){
     height: 16em;
     border-radius: 5px;
     position: absolute;
-    top: 85em;
+    top: 83em;
     left: 56.5em;
 }
 .relatess4 p{
     position: relative;
-    top: 67.5em;
+    top: 68.5em;
     left: 58.5em;
 }

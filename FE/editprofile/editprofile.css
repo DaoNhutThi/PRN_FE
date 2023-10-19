@@ -112,3 +112,9 @@ ul li:nth-child(2){
     position: relative;
     right: -55em;
 }
+.form-box{
+    min-height: 520px;
+    border-radius: 5px;
+    background: #737373;
+    z-index: 2;
+}
